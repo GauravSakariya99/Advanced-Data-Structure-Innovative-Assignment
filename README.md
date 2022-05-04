@@ -28,5 +28,5 @@ Data only in leaf nodes
   <li>Delete</li>
 </ol>
 
-<h2>Sample Tree of B+ Tree</h2>
+<h2>Sample B+ Tree</h2>
 <p align="center"><img src="https://github.com/GauravSakariya99/B-Plus-Tree-Advanced-Data-Structure-Innovative-Assignment/blob/main/Image_of_B+Tree.png" align="center"/></p>
