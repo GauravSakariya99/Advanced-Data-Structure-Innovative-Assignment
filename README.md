@@ -30,7 +30,7 @@ Data only in leaf nodes
 
 <h2>Sample B+ Tree</h2>
 <p align="center"><img src="https://github.com/GauravSakariya99/B-Plus-Tree-Advanced-Data-Structure-Innovative-Assignment/blob/main/Image_of_B+Tree.png" align="center"/></p>
-<h3>Working of Project</h3>
+<h2>Working of Project</h2>
 <p>This project is B+ Tree implementation like small version actual database that uses B+ tree for indexing.in In B+ Tree Internal nodes we store only Keys (Roll Nos) for sorting  and does not contain any data and Leaf Nodes we store Key Value pair (Roll No. , *File Pointer ) . this file pointer points to the actual file where corresponding data to roll no is present. Leaf nodes are connected sequentially.<br><br>
 
 Whenever we insert data the file RollNo.txt(Ex . 296.txt ) will be created in DATA/ folder and has content of name, semester, CGPA. it is same as disc – block access.
