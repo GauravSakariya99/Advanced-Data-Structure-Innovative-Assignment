@@ -33,7 +33,7 @@ Data only in leaf nodes
 <h2>Working of Project</h2>
 <p>This project is B+ Tree implementation like small version actual database that uses B+ tree for indexing.in In B+ Tree Internal nodes we store only Keys (Roll Nos) for sorting  and does not contain any data and Leaf Nodes we store Key Value pair (Roll No. , *File Pointer ) . this file pointer points to the actual file where corresponding data to roll no is present. Leaf nodes are connected sequentially.<br><br>
 
-Whenever we insert data the file RollNo.txt(Ex . 296.txt ) will be created in DATA/ folder and has content of name, semester, CGPA. it is same as disc – block access.
+Whenever we insert data the file RollNo.txt(Ex . 233.txt ) will be created in DATA/ folder and has content of name, semester, CGPA. it is same as disc – block access.
 In searching we will get node containing roll no. and through its File* we can access file and print its data.<br><br>
   
 Delete will delete leaf node(key as RollNo) as well as rollno.txt file from DATA /  folder.
