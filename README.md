@@ -1,22 +1,25 @@
 # B+ Tree Advanced Data Structure Innovative Assignment
 <h2>Project Description</h2>
-<p>Implemented using C++</p><br>
+<p>Implemented using C++</p>
+<h2>Demo of Project</h2>
+
 <h3>Order of B+ Tree</h3> 
-<p>Order of m B+ Tree can have
-Atmost m children 
-Atleast ceil[m/2]  chirdren<br>
+<p>Order of m B+ Tree can have<br>
+<ul>
+  <li>Atmost m children</li>
+  <li>Atleast ceil[m/2] chirdren</li>
+</ul>
   Any node that has m children has m-1 elements.
 </p>
 <h3>Properties of B+ Tree</h3>
 <p>All leaves are at the same level.<br>
 The root has at least two children.<br>
-All keys in node are in sorted order.
-</p><br>
-<p>Insertion of a Node in B-Tree happens only at Leaf Node.
-All Leaves are connected sequentially.
+All keys in node are in sorted order.<br>
+Insertion of a Node in B-Tree happens only at Leaf Node.<br>
+All Leaves are connected sequentially.<br>
 Data only in leaf nodes
 </p>
-<h4>You can read about B+ Tree here : https://www.studytonight.com/advanced-data-structures/b-plus-trees-data-structure</h4>
+<h4>You can read more about B+ Tree here : https://www.studytonight.com/advanced-data-structures/b-plus-trees-data-structure</h4>
 <h2>Functionality</h2>
 <ol>
   <li>Insertion</li>
